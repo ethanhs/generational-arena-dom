@@ -1,0 +1,15 @@
+[package]
+name = "generational-arena-dom"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A DOM implementation for html5ever that uses generational-arenas."
+repository = "https://github.com/ethanhs/generational-arena-dom"
+keywords = ["html5ever", "dom", "arena"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+generational-indextree = "^1.1"
+markup5ever = "^0.11"
