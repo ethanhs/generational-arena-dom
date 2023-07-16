@@ -1,6 +1,6 @@
 # Generational Arena DOM
 
-This is an implementation of the DOM used in `html5ever` using [`generational_indextree`](https://gitlab.com/barry.van.acker/generational-indextree), an implementation of [indextree](https://github.com/saschagrunert/indextree) using [generational arenas](https://github.com/fitzgen/generational-arena).
+This is an implementation of the DOM used in Servo's [`html5ever`](https://github.com/servo/html5ever) (the main crate that Servo uses to parse HTML content on the web) using [`generational_indextree`](https://gitlab.com/barry.van.acker/generational-indextree), an implementation of [indextree](https://github.com/saschagrunert/indextree) using [generational arenas](https://github.com/fitzgen/generational-arena).
 
 Using an indextree for the DOM makes mutation much simpler, as the docs for indextree state:
 
